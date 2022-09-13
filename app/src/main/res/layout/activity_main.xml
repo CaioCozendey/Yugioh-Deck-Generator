@@ -4,15 +4,80 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/wallpaper">
+
+    <View
+        android:id="@+id/cinzaBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/cinzaBackgroundWallpaper" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/cinzaSecundario"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/toolbarMain"
+        app:layout_constraintStart_toStartOf="@id/toolbarMain"
+        app:layout_constraintBottom_toBottomOf="@id/toolbarMain"
+        app:layout_constraintEnd_toEndOf="@id/toolbarMain"
+        android:text="@string/appName"
+        android:textColor="@color/white"
+        android:fontFamily="@font/marko_one_regular"
+        android:textSize="24sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/generateDeckBtn"
+        app:layout_constraintBottom_toTopOf="@id/allCardsBtn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="24dp"
+        android:text="@string/generate_deck"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/marko_one_regular"
+        android:background="@drawable/button_background"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/allCardsBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/all_cards"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/marko_one_regular"
+        android:background="@drawable/button_background"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/myDecksBtn"
+        app:layout_constraintTop_toBottomOf="@id/allCardsBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:text="@string/my_decks"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/marko_one_regular"
+        android:background="@drawable/button_background"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="cinzaBackgroundWallpaper">#BF222228</color>
+    <color name="cinzaPrimario">#17171A</color>
+    <color name="cinzaSecundario">#222228</color>
 </resources>

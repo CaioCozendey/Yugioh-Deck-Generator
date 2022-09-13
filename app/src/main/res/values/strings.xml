@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Yugioh Deck Generator</string>
+    <string name="appName">Yugioh Deck Generator</string>
+    <string name="generate_deck">Generate Deck</string>
+    <string name="all_cards">All Cards</string>
+    <string name="my_decks">My Decks</string>
 </resources>
