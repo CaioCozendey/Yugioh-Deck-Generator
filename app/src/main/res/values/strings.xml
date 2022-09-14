@@ -5,4 +5,8 @@
     <string name="all_cards">All Cards</string>
     <string name="my_decks">My Decks</string>
     <string name="pesquisar">Pesquisar</string>
+    <string name="cartaNome">A Cell Breeding Device</string>
+    <string name="cardAtk">ATK/: 2800</string>
+    <string name="cardDef">DEF/ 2400</string>
+    <string name="cardLevel">Level</string>
 </resources>

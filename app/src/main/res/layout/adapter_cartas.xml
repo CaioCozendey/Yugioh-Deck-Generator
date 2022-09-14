@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        app:cardBackgroundColor="@color/cinzaSecundario">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintCard"
+            android:layout_width="match_parent"
+            android:layout_height="94dp">
+            
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/cardImage"
+                app:layout_constraintTop_toTopOf="@id/constraintCard"
+                app:layout_constraintBottom_toBottomOf="@id/constraintCard"
+                app:layout_constraintStart_toStartOf="@id/constraintCard"
+                android:layout_width="50dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/card"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/cardName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/cardImage"
+                app:layout_constraintStart_toEndOf="@id/cardImage"
+                app:layout_constraintEnd_toEndOf="@id/constraintCard"
+                android:text="@string/cartaNome"
+                android:textColor="@color/white"
+                android:fontFamily="@font/marko_one_regular"
+                android:textSize="16sp"
+                android:layout_marginStart="8dp"/>
+
+            <TextView
+                android:id="@+id/cardAtk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/constraintCard"
+                app:layout_constraintBottom_toBottomOf="@id/constraintCard"
+                app:layout_constraintStart_toEndOf="@id/cardImage"
+                app:layout_constraintEnd_toStartOf="@id/cardDef"
+                android:text="@string/cardAtk"
+                android:fontFamily="@font/marko_one_regular"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/cardDef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/constraintCard"
+                app:layout_constraintBottom_toBottomOf="@id/constraintCard"
+                app:layout_constraintEnd_toEndOf="@id/constraintCard"
+                app:layout_constraintStart_toEndOf="@id/cardAtk"
+                android:text="@string/cardDef"
+                android:fontFamily="@font/marko_one_regular"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/cardlevelLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@id/cardImage"
+                app:layout_constraintStart_toEndOf="@id/cardImage"
+                app:layout_constraintEnd_toEndOf="@id/constraintCard"
+                android:layout_marginStart="16dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/cardLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cardLevel"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/marko_one_regular"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="8dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/starlevel"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="4dp"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,10 +9,11 @@ class GenerateDeckActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_generate_deck)
 
-        setSupportActionBar(findViewById(R.id.toolbarGenerate))
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title = ""
+        val toolbarGenerate = supportActionBar
+        toolbarGenerate!!.title = "kappa"
+        toolbarGenerate.setDisplayHomeAsUpEnabled(true)
     }
+
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.generate_deck_option, menu)
         return true
