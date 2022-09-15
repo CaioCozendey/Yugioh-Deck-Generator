@@ -4,10 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 
-class GenerateDeckActivity : AppCompatActivity() {
+class AllCardsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_generate_deck)
+        setContentView(R.layout.activity_all_cards)
 
         val toolbarGenerate = supportActionBar
         toolbarGenerate!!.title = ""

@@ -9,4 +9,6 @@
     <string name="cardAtk">ATK/: 2800</string>
     <string name="cardDef">DEF/ 2400</string>
     <string name="cardLevel">Level</string>
+    <string name="deck_name">Deck Seu Cleitinho</string>
+    <string name="lorem_ipsum">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece It has roots in a piece It has roots in a piece</string>
 </resources>

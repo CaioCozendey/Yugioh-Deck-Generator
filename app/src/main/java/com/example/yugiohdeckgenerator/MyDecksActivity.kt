@@ -4,10 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 
-class GenerateDeckActivity : AppCompatActivity() {
+class MyDecksActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_generate_deck)
+        setContentView(R.layout.activity_my_decks)
 
         val toolbarGenerate = supportActionBar
         toolbarGenerate!!.title = ""
@@ -15,7 +15,7 @@ class GenerateDeckActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.generate_deck_option, menu)
+        menuInflater.inflate(R.menu.my_deck_options, menu)
         return true
     }
 }

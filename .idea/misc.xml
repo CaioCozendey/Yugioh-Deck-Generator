@@ -4,10 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/drawable/button_background.xml" value="0.396" />
-        <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/activity_generate_deck.xml" value="0.33" />
+        <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/activity_all_cards.xml" value="0.344017094017094" />
+        <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/activity_generate_deck.xml" value="0.575" />
         <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/activity_main.xml" value="0.5" />
-        <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/adapter_cartas.xml" value="0.67" />
+        <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/activity_my_decks.xml" value="0.344017094017094" />
+        <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/adapter_cartas.xml" value="1.0" />
+        <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/adapter_decks.xml" value="0.818686401480111" />
         <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/menu/generate_deck_option.xml" value="0.45384615384615384" />
+        <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/menu/my_deck_options.xml" value="0.344017094017094" />
       </map>
     </option>
   </component>
