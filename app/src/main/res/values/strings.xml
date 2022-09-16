@@ -11,4 +11,11 @@
     <string name="cardLevel">Level</string>
     <string name="deck_name">Deck Seu Cleitinho</string>
     <string name="lorem_ipsum">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece It has roots in a piece It has roots in a piece</string>
+    <string name="lorem_ipsum2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece It has roots in a piece It has roots in a piece piece It has roots in a piece piece It has roots in a piece piece It has roots in a piece piece It has roots in a piece piece It has roots in a piece piece It has roots in a piece</string>
+    <string name="cardDetailLevel">Level: 8</string>
+    <string name="card_detail_type">Type: Effect Monster</string>
+    <string name="card_detail_race">Race: Water</string>
+    <string name="card_detail_rarity">Rarity: Common</string>
+    <string name="description">Description:</string>
+    <string name="card_detail_screen">Test Card Detail</string>
 </resources>

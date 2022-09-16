@@ -59,4 +59,18 @@
         android:fontFamily="@font/marko_one_regular"
         android:background="@drawable/button_background"/>
 
+    <Button
+        android:id="@+id/testButtonCardDetailScreen"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/myDecksBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:text="@string/card_detail_screen"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/marko_one_regular"
+        android:background="@drawable/button_background"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,13 +14,17 @@
         android:theme="@style/Theme.YugiohDeckGenerator"
         tools:targetApi="31">
         <activity
-            android:name=".AllCardsActivity"
+            android:name=".CardDetailActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity"/>
         <activity
+            android:name=".AllCardsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MyDecksActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".GenerateDeckActivity"
             android:exported="false"

@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/drawable/background_card_detail.xml" value="0.309" />
         <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/drawable/button_background.xml" value="0.396" />
         <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/activity_all_cards.xml" value="0.344017094017094" />
+        <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/activity_card_detail.xml" value="0.33" />
         <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/activity_generate_deck.xml" value="0.575" />
         <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/caioc/AndroidStudioProjects/YugiohDeckGenerator/app/src/main/res/layout/activity_my_decks.xml" value="0.344017094017094" />
