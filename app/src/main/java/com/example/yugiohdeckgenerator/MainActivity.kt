@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         val generateDeck = findViewById<Button>(R.id.generateDeckBtn)
         val myDecks = findViewById<Button>(R.id.myDecksBtn)
         val allCards = findViewById<Button>(R.id.allCardsBtn)
-        val cardDetail = findViewById<Button>(R.id.testButtonCardDetailScreen)
 
         generateDeck.setOnClickListener {
             val intent = Intent(this, GenerateDeckActivity::class.java)
@@ -27,11 +26,6 @@ class MainActivity : AppCompatActivity() {
 
         allCards.setOnClickListener {
             val intent = Intent(this, AllCardsActivity::class.java)
-            startActivity(intent)
-        }
-
-        cardDetail.setOnClickListener {
-            val intent = Intent(this, CardDetailActivity::class.java)
             startActivity(intent)
         }
     }
