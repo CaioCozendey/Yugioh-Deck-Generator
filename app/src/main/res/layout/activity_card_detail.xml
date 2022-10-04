@@ -108,24 +108,12 @@
         android:fontFamily="@font/marko_one_regular"
         android:textSize="16sp"/>
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/cardRarity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/cardRace"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:text="@string/card_detail_rarity"
-        android:textColor="@color/white"
-        android:fontFamily="@font/marko_one_regular"
-        android:textSize="16sp"/>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/cardDescriptionName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/cardRarity"
+        app:layout_constraintTop_toBottomOf="@id/cardRace"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
